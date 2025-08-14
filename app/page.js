@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Hero from "./layout/Hero";
 import About from "./layout/About";
+import Service from "./layout/Service";
 
 export default function Home() {
     return (
         <>
             <Hero />
-            <div className="w-full px-15">
+            <div className="w-full px-10 md:px-15">
                 <About />
             </div>
+            <Service />
         </>
     );
 }
