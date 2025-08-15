@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./layout/Hero";
 import About from "./layout/About";
 import Service from "./layout/Service";
+import Portfolio from "./layout/Portfolio";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
                 <About />
             </div>
             <Service />
+            <Portfolio />
         </>
     );
 }
